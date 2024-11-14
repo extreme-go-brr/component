@@ -1,0 +1,53 @@
+/* src/components/Breadcrumb.css */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  font-family: Arial, sans-serif;
+}
+
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 26px;  /* Ukuran font untuk item breadcrumb */
+  color: #333;
+  margin: 15px;
+}
+
+.breadcrumb-item-home {
+  background-color: rgba(72, 174, 92, 0.1);
+  border: 2px solid #4caf50;
+}
+
+.breadcrumb-item-category {
+  background-color: rgba(255, 165, 0, 0.1);
+  border: 2px solid #ff9800;
+}
+
+.breadcrumb-item-product {
+  background-color: rgba(33, 150, 243, 0.1);
+  border: 2px solid #2196f3;
+}
+
+.breadcrumb-item-info {
+  background-color: rgba(255, 99, 71, 0.1);
+  border: 2px solid #f44336;
+}
+
+.breadcrumb-text {
+  margin-left: 5px;
+  font-size: 26px; /* Ukuran font untuk teks breadcrumb */
+}
+
+.breadcrumb-icon {
+  font-size: 26px; /* Ukuran font untuk ikon breadcrumb */
+}
+
+.breadcrumb-separator {
+  font-size: 26px;  /* Ukuran font untuk separator */
+  margin-left: 8px;
+  margin-right: 8px;
+  color: #ccc;
+}

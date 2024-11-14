@@ -1,0 +1,98 @@
+/* src/components/Modal.css */
+
+/* Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* Modal */
+  .modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 100%;
+  }
+  
+  /* Simple Modal */
+  .modal.simple {
+    border-radius: 8px;  /* Border radius untuk modal simple */
+    padding: 20px;       /* Padding standar */
+  }
+  
+  /* Rounded Modal */
+  .modal.rounded {
+    border-radius: 20px; /* Lebih melengkung */
+    padding: 25px;       /* Padding lebih besar untuk modal rounded */
+  }
+  
+  /* Modal Sizes */
+  .modal.small {
+    width: 300px;   /* Modal dengan ukuran kecil */
+  }
+  
+  .modal.medium {
+    width: 500px;   /* Modal dengan ukuran sedang */
+  }
+  
+  .modal.large {
+    width: 800px;   /* Modal dengan ukuran besar */
+  }
+  
+  /* Header */
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .modal-header h2 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #888;
+  }
+  
+  .close-button:hover {
+    color: #333;
+  }
+  
+  /* Content */
+  .modal-content {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  
+button {
+    background-color: blue;    /* Warna latar belakang biru */
+    color: white;              /* Warna teks putih */
+    border: none;              /* Menghapus border default tombol */
+    padding: 10px 20px;        /* Padding tombol */
+    border-radius: 9px;        /* Sudut tombol melengkung */
+    font-size: 16px;           /* Ukuran font */
+    cursor: pointer;          /* Menunjukkan pointer saat hover */
+    transition: background-color 0.3s ease;  /* Efek transisi pada perubahan warna */
+  }
+  
+  /* Tombol saat hover */
+  button:hover {
+    background-color: darkblue; /* Mengubah warna latar belakang menjadi biru gelap saat hover */
+  }
+  
